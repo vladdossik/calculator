@@ -35,7 +35,7 @@ public class RomanCalculator implements Calculator {
         }
         return result;
     }
-    
+
     private String arabicToRoman(int number) {
         List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
         int i = 0;
